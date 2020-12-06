@@ -1,5 +1,5 @@
 # LowResourceLanguages
-Project devoted to investigation of strategies for the improvement of low-resourced Machine Translation
+Project devoted to investigation of strategies for the improvement of low-resourced Machine Translation. Joeynmt(https://github.com/joeynmt/joeynmt) was used as a tool for training MT systems.
 
 ## Ky-Ru data
 Ky-Ru data is represented by 334508 parallel sentences collected mostly from OPUS(http://opus.nlpl.eu/) and preprocessed by MOSES(http://www.statmt.org/moses/).
