@@ -17,9 +17,11 @@ Joey NMT is built on [PyTorch](https://pytorch.org/) and [torchtext](https://git
   `pip3 install .` (or `python3 -m pip install .`).
   
  For training, run:
+ 
  `python3 -m joeynmt train configs/lez_ru_baseline.yaml`.
   
- For testing on your parallel test set, run 
+ For testing on your parallel test set, run:
+ 
 `python3 -m joeynmt test configs/lez_ru_baseline.yaml --output_path out`.
 
 ### Current results (BLEU)
