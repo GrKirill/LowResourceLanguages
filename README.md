@@ -7,6 +7,21 @@ Ky-Ru data is represented by 334508 parallel sentences collected mostly from [OP
 ## Lez-Ru data
 Lez-Ru data is represented by 7757 parallel sentences collected in a manual manner.
 
+
+## Joeynmt installation and usage.
+Joey NMT is built on [PyTorch](https://pytorch.org/) and [torchtext](https://github.com/pytorch/text) for Python >= 3.5.
+  1. Clone this repository:
+  `git clone https://github.com/joeynmt/joeynmt.git`
+  2. Install joeynmt and it's requirements:
+  `cd joeynmt`
+  `pip3 install .` (or `python3 -m pip install .`).
+  
+ For training, run:
+ `python3 -m joeynmt train configs/lez_ru_baseline.yaml`.
+  
+ For testing on your parallel test set, run 
+`python3 -m joeynmt test configs/lez_ru_baseline.yaml --output_path out`.
+
 ### Current results (BLEU)
 
 | Pair  | Baseline | Pbsmt | LaBSE | LSTM for augmentation |
