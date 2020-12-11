@@ -36,9 +36,9 @@ Joey NMT is built on [PyTorch](https://pytorch.org/) and [torchtext](https://git
 
 ## Current results (BLEU)
 
-| Pair  | Baseline | Pbsmt | LaBSE | LSTM for augmentation | Additional turkish cyrillized corpus (~200k) |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Ky-Ru  | 12.67±0.18   | 6.83 | 14.98±0.28   | 13.06±0.35 | 13.25 |
+| Pair  | Baseline | Pbsmt | LaBSE | LSTM for augmentation | Additional turkish cyrillized corpus (~250k) | Additional turkish cyrillized corpus (~450k) |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Ky-Ru  | 12.67±0.18   | 6.83 | 14.98±0.28   | 13.06±0.35 | 13.25 | 12.79 |
 | Lez-Ru  | 3.21±0.35  | 0.76 | 2.61±0.14 | 1.94±0.28 |
 
 | Pair  | BPE merge | BLEU
