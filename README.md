@@ -51,7 +51,7 @@ Joey NMT is built on [PyTorch](https://pytorch.org/) and [torchtext](https://git
 | Lez-Ru | 10000   | 0.71 |
 
 | ky-ru parallel sents  | BLEU
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- |
 | 150k | 15.39 |
 | 100k | 13.89 |
 | 75k | 12.49 |
